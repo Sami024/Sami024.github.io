@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="portofolio.css" />
+  </head>
+  <body>
+    <div class="showcase">
+      <header>
+        <h2 class="logo"><img src="logo1.png" alt="logo" width="33%" height="33%"></h2>
+        <div class="toggle"></div>
+      </header>
+      <video src="rs6f.webm" muted loop autoplay></video>
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Sami</h2>
+        <h3>De Software Developer</h3>
+        <p></p>
+        <a href="verken.html">Verken</a>
+      </div>
+      <ul class="social">
+        <li><img src="discord.png" alt="discord" width="8%" height="8%"></li>
+      </ul>
+    </div>
+    <div class="menu">
+      <ul>
+        <li>Home</li>
+        <li>Over Mij</li>
+        <li>Contacteer Mij</li>
+      </ul>
+    </div>
+  <script>
+const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+  </body>
+</html>
