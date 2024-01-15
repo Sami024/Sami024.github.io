@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="overmij.css">
 </head>
+
 <body>
-    
+    <div class="showcase">
+        <header>
+            <h2 class="logo"><img src="logo1.png" alt="logo" width="33%" height="33%"></h2>
+            <div class="toggle"></div>
+        </header>
+        <div>
+            <h1>About Me</h1>
+            <p>Im 17 years old and my name is Sami. I was born in the netherlands iam originaly from morocco i speak 3 languages.</p>
+            <h2>How would i describe myself?<h2>
+                    <p>A student studying to become a software developer. Besides this i'm very competitive gamer i
+                        like to compete in online tournaments for money.  </p>
+
+
+
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="OverMij.html">Over Mij</a></li>
+                <li><a href="contact.html">Contacteer Mij</a></li>
+            </ul>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })
+        </script>
 </body>
+
+</html>
+
+</body>
+
 </html>
