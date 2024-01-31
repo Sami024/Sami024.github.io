@@ -1,18 +1,4 @@
-       
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
  * {
     margin: 0;
@@ -194,12 +180,14 @@
       left: auto;
       right: 0;
     }
+  
     .text h2 {
       font-size: 3em;
     }
     .text h3 {
       font-size: 2em;
     }
+
   }
   .contact-form {
     max-width: 400px;
@@ -224,7 +212,3 @@ h2 {
     color: #333;
 }
 
-.googlemaps {
-
- align-items: center;
-}
