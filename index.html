@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
-    <link rel="stylesheet" href="portofolio.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Cairo&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mate&family=Oswald:wght@300&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="showcase">
-      <header>
-        <h2 class="logo"><img src="logo1.png" alt="logo" width="33%" height="33%"></h2>
-        <div class="toggle"></div>
-      </header>
-      <video src="ssstwitter.com_1706013250825 (1).mp4"muted loop autoplay></video>
-      <div class="overlay"></div>
 
-      <div class="text">
-        <h2>Sami</h2>
-        <h3>The Software Developer</h3>
-        <p></p>
-        <a href="OverMij.html">About me</a>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Cairo&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mate&family=Oswald:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="showcase">
+    <header>
+      <h2 class="logo"><img src="Media/IMG/logo1.png" alt="logo" width="33%" height="33%"></h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="Media/VIDEO/achtergrond-1.mp4" loop muted autoplay>
+    </video>
+    <div class="overlay"></div>
+
+    <div class="text">
+      <h2>Sami</h2>
+      <h3>The Software Developer</h3>
+      <p></p>
+      <a href="over-mij.html">About me</a>
     </div>
-    <div class="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="OverMij.html">About Me</a></li>
-        <li><a href="Workpage.html">Projects</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
-      </ul>
-    </div>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="over-mij.html">About Me</a></li>
+      <li><a href="work-page.html">Projects</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </div>
   <script>
-const menuToggle = document.querySelector('.toggle');
-      const showcase = document.querySelector('.showcase');
-      menuToggle.addEventListener('click', () => {
-        menuToggle.classList.toggle('active');
-        showcase.classList.toggle('active');
-      })
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+    })
   </script>
-  </body>
+</body>
+
 </html>
