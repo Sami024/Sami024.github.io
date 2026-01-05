@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="work-page.css">
+</head>
+<body>
+  
+    <div class="showcase">
+        <header>
+          <h2 class="logo"><img src="Media/IMG/logo1.png" alt="logo" width="33%" height="33%"></h2>
+          <div class="toggle"></div>
+        </header>
+        <video src=""muted loop autoplay></video>
+        <div class="overlay"></div>
+  
+        <div class="text">
+          <h2>Projects</h2>
+          <p>This is my first website that i have built<br>next to that you can see a gaming pc that i buildt aswell</p>
+        
+        
+          <a href="contact.html">Contact Me</a>
+        </div>
+      <div class="containerpicture"> <img class="pink"  src="Media/IMG/pinkgoose.png" style="width: 350px; height: 500px;"> <img class="pink" src="Media/IMG/game-pc.jpg" style="height: 200px; width: 200px;" alt="">
+      </div>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="over-mij.html">About Me</a></li>
+          <li><a href="work-page.html">Projects</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    <script>
+  const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
